@@ -28,21 +28,21 @@
             >;
         };
 
-        lower_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            label = "Lower";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PLUS   &kp N7  &kp N8   &kp N9  &kp BSPC      &none
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp N4  &kp N5   &kp N6  &kp ASTERISK  &none
-&trans  &trans  &trans  &trans  &trans  &trans    &kp FSLH   &kp N3  &kp N2   &kp N1  &kp EQUAL     &none
-                        &trans  &trans  &trans    &kp ENTER  &kp N0  &kp DOT
-            >;
-        };
+//         lower_layer {
+//             // -----------------------------------------------------------------------------------------
+//             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+//             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+//             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+//             //                    | GUI |     | SPC |   | ENT |     | ALT |
+// 
+//             label = "Lower";
+//             bindings = <
+// &trans  &trans  &trans  &trans  &trans  &trans    &kp PLUS   &kp N7  &kp N8   &kp N9  &kp BSPC      &none
+// &trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp N4  &kp N5   &kp N6  &kp ASTERISK  &none
+// &trans  &trans  &trans  &trans  &trans  &trans    &kp FSLH   &kp N3  &kp N2   &kp N1  &kp EQUAL     &none
+//                         &trans  &trans  &trans    &kp ENTER  &kp N0  &kp DOT
+//             >;
+//         };
 
 //         raise_layer {
 //             // -----------------------------------------------------------------------------------------
