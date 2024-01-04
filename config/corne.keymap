@@ -5,11 +5,10 @@
  */
 
 &mt {
-    tapping-term-ms = <TAPPING_TERM>;
+    tapping-term-ms = <200>;
     flavor = "tap-preferred";
-    quick-tap-ms = <QUICK_TAP_TERM>;
+    quick-tap-ms = <(-1)>;
 };
-
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
