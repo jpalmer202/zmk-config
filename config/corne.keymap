@@ -27,9 +27,9 @@
             label = "Base";
             bindings = <
 &lt 1 ESC  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R    &mt LS(T) T             &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I          &mt LS(O) O              &mt LS(P) P          &lt 2 BACKSPACE
-&kp LSHFT  &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G             &mt LS(H) H  &mt LS(J) J  &mt LS(K) K          &mt LS(L) L              &mt COLON SEMICOLON  &mt DOUBLE_QUOTES SINGLE_QUOTE
-&kp LCTRL  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V    &mt LS(B) B             &mt LS(N) N  &mt LS(M) M  &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION SLASH   &kp RIGHT_SHIFT
-                                     &kp LGUI     &kp BACKSPACE  &mt LEFT_SHIFT ENTER    &kp SPACE    &kp TAB      &kp RIGHT_WIN
+&kp LSHFT  &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G             &mt LS(H) H  &mt LS(J) J  &mt LS(K) K          &mt LS(L) L              &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt ENTER
+&kp LCTRL  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V    &mt LS(B) B             &mt LS(N) N  &mt LS(M) M  &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION SLASH   &mt COLON SEMICOLON
+                                     &kp LGUI     &kp TAB  &mt DELETE    &kp ENTER    &kp SPACE      &kp RIGHT_WIN
             >;
         };
 
@@ -44,8 +44,8 @@
             bindings = <
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR    &kp PLUS   &kp N7  &kp N8   &kp N9  &kp BSPC      &none
 &trans  &trans        &trans        &trans        &trans        &to 3         &kp MINUS  &kp N4  &kp N5   &kp N6  &kp ASTERISK  &none
-&trans  &trans        &trans        &trans        &trans        &trans        &kp FSLH   &kp N3  &kp N2   &kp N1  &kp EQUAL     &none
-                                    &trans        &trans        &trans        &kp ENTER  &kp N0  &kp DOT
+&trans  &trans        &trans        &trans        &trans        &trans        &kp FSLH   &kp N1  &kp N2   &kp N3  &kp EQUAL     &none
+                                    &trans        &trans        &trans        &kp ENTER  &kp DOT  &kp N0
             >;
         };
 
