@@ -27,9 +27,9 @@
             label = "Base";
             bindings = <
 &lt 1 ESC  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R    &mt LS(T) T             &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I          &mt LS(O) O              &mt LS(P) P          &lt 2 BACKSPACE
-&kp LSHFT  &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G             &mt LS(H) H  &mt LS(J) J  &mt LS(K) K          &mt LS(L) L              &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt ENTER
+&kp LSHFT  &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F    &mt LS(G) G             &mt LS(H) H  &mt LS(J) J  &mt LS(K) K          &mt LS(L) L              &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp ENTER
 &kp LCTRL  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V    &mt LS(B) B             &mt LS(N) N  &mt LS(M) M  &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION SLASH   &mt COLON SEMICOLON
-                                     &kp LGUI     &kp TAB  &mt DELETE    &kp ENTER    &kp SPACE      &kp RIGHT_WIN
+                                     &kp LGUI     &kp TAB  &kp DELETE    &kp ENTER    &kp SPACE      &kp RIGHT_WIN
             >;
         };
 
